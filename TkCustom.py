@@ -42,7 +42,7 @@ class AddPopup(Tk):
         self.button2 = Button(self, text = "Add Scenario")
         self.button2.place(x = 460, y = 310)
 
-    def upload():
+    def upload(self):
         filename = filedialog.askopenfilename()
         #
 
